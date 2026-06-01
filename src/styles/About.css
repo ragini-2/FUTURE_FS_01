@@ -1,0 +1,28 @@
+.about{
+  padding:100px 10%;
+  background:#ffffff;
+}
+
+.about-container{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:50px;
+}
+
+.about-image img{
+  width:400px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.about-content h2{
+  font-size:2.5rem;
+  margin-bottom:20px;
+  color:#2563EB;
+}
+
+.about-content p{
+  margin-bottom:15px;
+  line-height:1.8;
+}

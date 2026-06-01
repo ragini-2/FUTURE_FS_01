@@ -1,0 +1,181 @@
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  padding:120px 10%;
+  background:#F8FAFC;
+}
+
+.hero-content{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:50px;
+  width:100%;
+}
+
+.hero-text h1{
+  font-size:4rem;
+  margin-bottom:10px;
+}
+
+.hero-text h3{
+  color:#2563EB;
+  margin-bottom:20px;
+}
+
+.hero-text p{
+  line-height:1.8;
+  max-width:600px;
+  margin-bottom:25px;
+}
+
+.hero-buttons{
+  display:flex;
+  gap:15px;
+}
+
+.btn{
+  padding:12px 24px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.btn-primary{
+  background:#2563EB;
+  color:white;
+}
+
+.hero-image img{
+  width:350px;
+  border-radius:50%;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.hero{
+  position:relative;
+  overflow:hidden;
+}
+
+.background-animation{
+  position:absolute;
+  inset:0;
+  z-index:0;
+  pointer-events:none;
+}
+
+.background-animation span{
+  position:absolute;
+  color:rgba(37,99,235,0.08);
+  font-weight:700;
+  animation:float 10s ease-in-out infinite;
+}
+
+.background-animation span:nth-child(1){
+  top:10%;
+  left:10%;
+  font-size:4rem;
+}
+
+.background-animation span:nth-child(2){
+  top:20%;
+  right:15%;
+  font-size:3rem;
+}
+
+.background-animation span:nth-child(3){
+  top:70%;
+  left:20%;
+  font-size:3rem;
+}
+
+.background-animation span:nth-child(4){
+  top:60%;
+  right:10%;
+  font-size:3rem;
+}
+
+.background-animation span:nth-child(5){
+  top:40%;
+  left:50%;
+  font-size:3.5rem;
+}
+
+.background-animation span:nth-child(6){
+  top:80%;
+  left:70%;
+  font-size:2rem;
+}
+
+.background-animation span:nth-child(7){
+  top:15%;
+  left:60%;
+  font-size:2.5rem;
+}
+
+.background-animation span:nth-child(8){
+  top:75%;
+  right:30%;
+  font-size:2.5rem;
+}
+
+@keyframes float{
+  0%{
+    transform:translateY(0px);
+  }
+
+  50%{
+    transform:translateY(-25px);
+  }
+
+  100%{
+    transform:translateY(0px);
+  }
+}
+.profile-wrapper{
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.profile-wrapper::before{
+  content:"";
+  position:absolute;
+
+  width:360px;
+  height:360px;
+
+  border-radius:50%;
+
+  background:linear-gradient(
+    135deg,
+    #2563EB,
+    #4F46E5,
+    #14B8A6
+  );
+
+  filter:blur(45px);
+
+  opacity:0.4;
+
+  animation:pulse 4s infinite;
+}
+
+@keyframes pulse{
+
+  0%{
+    transform:scale(1);
+  }
+
+  50%{
+    transform:scale(1.1);
+  }
+
+  100%{
+    transform:scale(1);
+  }
+
+}

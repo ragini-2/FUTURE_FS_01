@@ -1,0 +1,29 @@
+.navbar{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  background:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 10%;
+  box-shadow:0 4px 20px rgba(0,0,0,0.05);
+  z-index:1000;
+}
+
+.logo{
+  color:#2563EB;
+}
+
+.nav-links{
+  display:flex;
+  gap:25px;
+  list-style:none;
+}
+
+.nav-links a{
+  text-decoration:none;
+  color:#0f172a;
+  font-weight:500;
+}
