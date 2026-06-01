@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ragini-2/FUTURE_FS_01/static/css/main.0df0f5ea.css",
+    "main.js": "/ragini-2/FUTURE_FS_01/static/js/main.6a8aa410.js",
+    "static/js/453.15a626a8.chunk.js": "/ragini-2/FUTURE_FS_01/static/js/453.15a626a8.chunk.js",
+    "static/media/profile.jpeg": "/ragini-2/FUTURE_FS_01/static/media/profile.e3bae8091d77a284104f.jpeg",
+    "static/media/resume.pdf": "/ragini-2/FUTURE_FS_01/static/media/resume.ada19ebc551906253f1a.pdf",
+    "index.html": "/ragini-2/FUTURE_FS_01/index.html",
+    "main.0df0f5ea.css.map": "/ragini-2/FUTURE_FS_01/static/css/main.0df0f5ea.css.map",
+    "main.6a8aa410.js.map": "/ragini-2/FUTURE_FS_01/static/js/main.6a8aa410.js.map",
+    "453.15a626a8.chunk.js.map": "/ragini-2/FUTURE_FS_01/static/js/453.15a626a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0df0f5ea.css",
+    "static/js/main.6a8aa410.js"
+  ]
+}
